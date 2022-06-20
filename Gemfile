@@ -44,6 +44,9 @@ gem "bootsnap", require: false
 
 gem 'devise'
 
+gem 'devise-jwt'
+gem 'rack-cors'
+gem 'figaro'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
