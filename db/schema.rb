@@ -28,7 +28,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_23_171009) do
     t.string "tags"
     t.string "budget"
     t.bigint "user_id", null: false
-    t.boolean "isOpen"
+    t.boolean "isOpen", default: true
     t.bigint "category_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
